@@ -60,3 +60,68 @@ body {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  .bbar {
+    padding-top: 400px; 
+    float: left; 
+    width: 100%;
+  }
+
+  .backg {
+    background-color:#070504; padding: 20px; padding-top: 32px;padding-bottom: 100px; font-family: 'Raleway', sans-serif; font-size: 20px;
+  }
+
+  .topcd {
+    animation: fadeInDown;
+    animation-duration: 1s;
+  }
+
+  .botcd {
+    animation: fadeInUp;
+    animation-duration: 1.7s;
+  }
+
+  .img1 {
+    padding-left: 50px; 
+    padding-top: 85px;
+  }
+
+  .img2 {
+    padding-left: 50px; 
+    padding-top: 185px;
+  }
+
+  .img3 {
+    padding-left: 160px;  
+    width: 23%;  
+    margin-top: 335px;
+  }
+
+  .img4 {
+    padding-left: 200px; 
+    width: 25%; 
+    margin-top: 495px;
+  }
+
+  .txt {
+    width: 660px; 
+    height: 200px; 
+    padding: 40px; 
+    font-family: 'Raleway', sans-serif; 
+    font-size: 45px;
+  }
+
+  .txt2 {
+    color: black; padding-top: 75px;
+  }
+
+  .wh {
+    color: white;
+  }
+
+  .backg2 {
+    background-image: url(img/bg.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    height: 200%; 
+  }
