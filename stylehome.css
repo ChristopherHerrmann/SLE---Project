@@ -4,7 +4,11 @@ body {
     background-color: #FFFDFD;
 }
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
 
+}
 
 .large-text {
     font-family: 'Oswald', sans-serif;
