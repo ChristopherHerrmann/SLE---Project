@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
+
+
+body {
+    background-color: white;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+.imgitems {
+    float: left;
+    width: 500px;
+    background-color: #E6E6E6;
+    border-radius: 15px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.padd {
+    padding-left: 50px;
+    padding-top: 150px;
+    
+}
+
+.maj {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.min {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 80px;
+  height: 80px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 800px;
+  height: 720px;
+}
+
+.css-button-sliding-to-left--black {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #000000;
+  color: #000000;
+}
+.css-button-sliding-to-left--black:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--black:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--black:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #000000;
+}
+
+.large-text {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 50px;
+    font-size: 100px;
+}
+
+.small-text {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.watch {
+    width: 400px;
+}
+
+.bac {
+    background-image: url(img/backgroundTAN.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bu {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 50px; 
+    background-color: black; 
+    padding-left: 50px; 
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .bbar {
+    padding-top: 400px; 
+    float: left; 
+    width: 100%;
+  }
+
+  .backg {
+    background-color:#070504; padding: 20px; padding-top: 32px;padding-bottom: 100px; font-family: 'Raleway', sans-serif; font-size: 20px;
+  }
+
+  .topcd {
+    animation: fadeInDown;
+    animation-duration: 1s;
+  }
+
+  .botcd {
+    animation: fadeInUp;
+    animation-duration: 1.7s;
+  }
+
+  .img1 {
+    padding-left: 50px; 
+    padding-top: 85px;
+  }
+
+  .img2 {
+    padding-left: 50px; 
+    padding-top: 185px;
+  }
+
+  .img3 {
+    padding-left: 160px;  
+    width: 23%;  
+    margin-top: 335px;
+  }
+
+  .img4 {
+    padding-left: 200px; 
+    width: 25%; 
+    margin-top: 495px;
+  }
+
+  .txt {
+    width: 660px; 
+    height: 200px; 
+    padding: 40px; 
+    font-family: 'Raleway', sans-serif; 
+    font-size: 45px;
+  }
+
+  .txt2 {
+    color: black; padding-top: 75px;
+  }
+
+  .wh {
+    color: white;
+  }
+
+  .backg2 {
+    background-image: url(img/bg.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    height: 200%; 
+  }
